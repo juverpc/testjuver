@@ -6,6 +6,4 @@ phases:
     commands:
       - echo $CODEBUILD_RESOLVED_SOURCE_VERSION
       - echo $MODEL
-      - echo $PIPELINE_NAME
-     
-      
+      - echo $PIPELINE_NAME     
