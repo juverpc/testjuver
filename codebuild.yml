@@ -4,7 +4,6 @@ version: 0.2
 phases:
   pre_build:
     commands:
-      - echo $CODEBUILD_RESOLVED_SOURCE_VERSION
       - echo $CODEBUILD_SOURCE_VERSION
       - echo $MODEL
       - echo $PIPELINE_NAME     
